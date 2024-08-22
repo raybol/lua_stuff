@@ -5,7 +5,7 @@ SRCS =  main.cpp
 OBJS = ${SRCS:.cpp=.o}
 HEADERS = 
 
-MAIN = myprog
+MAIN = myprog.e
 
 all: ${MAIN}
 	@echo done
