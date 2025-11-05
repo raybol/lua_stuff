@@ -8,6 +8,7 @@ end
 
 print("extention")
 ext = cpp_thing.new()
+print(cpp_thing_ext.hello)
 print("break1")
 
 cpp_thing_ext.nu= function() return "ognu" end
@@ -19,7 +20,7 @@ print(ext:hello())
 print(cpp_thing_ext.bye())
 print(ext:nu())
 print(cpp_thing_ext.nu())
-print(cpp_thing_ext:hello())
+print(cpp_thing_ext.hello)
 print(ext:hello())
 print(ext:bye())
 ext.bye = function() return "hello" end
@@ -30,6 +31,6 @@ ext.value =10
 --cpp_thing.value=4
 print(cpp_thing_ext.value)
 print(ext.value)
---print(cpp_thing.value)
+print(cpp_thing_ext.value)
 
 print("done")
